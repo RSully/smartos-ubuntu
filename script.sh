@@ -32,3 +32,8 @@ sudo zfs create -V 5G myzpool/ubuntu
 # Write the image and store it as a gzipped ZFS volume
 sudo dd if=ubuntu-14.04-server-cloudimg-amd64-disk1.dist.img of=/dev/zvol/myzpool/ubuntu
 sudo zfs send myzpool/ubuntu@snap | gzip > ubuntu-14.04-server-cloudimg-amd64-disk1.dist.zvol.gz
+
+# Cleanup
+sudo zfs destroy -r myzpool/ubuntu
+sudo zpool destroy myzpool
+sudo rm /myzpool.file
