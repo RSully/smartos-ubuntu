@@ -1,3 +1,10 @@
+#!/bin/sh
+
+#
+# This script should be ran on Ubuntu Server
+# Tested on 14.04
+#
+
 # Update repos
 sudo apt-get update
 
