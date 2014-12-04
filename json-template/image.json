@@ -1,0 +1,40 @@
+{
+  "v": 2,
+  "uuid": "",
+  "owner": "",
+  "name": "ubuntu-1404",
+  "version": "20141203",
+  "state": "active",
+  "disabled": false,
+  "public": true,
+  "published_at": "2014-12-03T09:10:00Z",
+  "type": "zvol",
+  "os": "linux",
+  "files": [
+    {
+      "path": "ubuntu-14.04-server-cloudimg-amd64-disk1.dist.zvol.gz",
+      "sha1": "b9560a7ae286351834996c7639e790615723e15e",
+      "size": 244470450,
+      "compression": "gzip"
+    }
+  ],
+  "description": "Ubuntu 14.04 cloud image.",
+  "urn": "smartos:rsully:ubuntu-1404:20141203",
+  "requirements": {
+    "networks": [
+      {
+        "name": "net0",
+        "description": "public"
+      }
+    ],
+    "ssh_key": true,
+    "min_ram": 128
+  },
+  "nic_driver": "virtio",
+  "disk_driver": "virtio",
+  "cpu_type": "host",
+  "image_size": 5120,
+  "tags": {
+    "role": "os"
+  }
+}
