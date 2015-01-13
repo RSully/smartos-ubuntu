@@ -41,8 +41,17 @@ For example:
 ```
 imgadm install -m your.json -f your.zvol.gz
 ```
+Once that completes, you should see your image when you run this:
 
-Now you may create new KVM instances using vmadm!
+```
+imgadm list
+```
+
+Create a new KVM guest using vmadm:
+
+```
+vmadm create -f ubuntu.json
+```
 
 # imgadm json manifest
 
