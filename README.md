@@ -53,15 +53,21 @@ You will need to adjust a few values, below we list some hints.
 
 Use this command on Ubuntu to generate a random uuid for your image's manifest:
 
-```python -c 'from uuid import uuid4;print(uuid4())'```
+```
+python -c 'from uuid import uuid4;print(uuid4())'
+```
 
 Use this command on Ubuntu to generate a sha1 for your new image
 
-```sha1sum *.zvol.gz```
+```
+sha1sum *.zvol.gz
+```
 
 Use this command to get the images bytes (5th column):
 
-```ls -l *.zvol.gz```
+```
+ls -l *.zvol.gz
+```
 
 
 [0]: https://www.joyent.com/blog/certified-ubuntu-images-available-in-joyent-cloud
