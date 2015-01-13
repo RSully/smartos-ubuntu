@@ -33,7 +33,7 @@
   "nic_driver": "virtio",
   "disk_driver": "virtio",
   "cpu_type": "host",
-  "image_size": 5120,
+  "image_size": 8192,
   "tags": {
     "role": "os"
   }
