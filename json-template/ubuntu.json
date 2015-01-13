@@ -5,7 +5,7 @@
       "image_uuid": "",
       "boot": true,
       "model": "virtio",
-      "image_size": 8192
+      "image_size": 5120
     }
   ],
 
