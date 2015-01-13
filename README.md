@@ -13,14 +13,9 @@ As a result, this project was born to document and automate the process.
 
 # high level overview
 
-**0-setup.sh**
-  setup an existing Ubuntu server to generate a SmartOS image
-
-**1-prep.sh**:
-  download the official cloud image from Ubuntu
-
-**2-run.sh**
-  convert the official cloud image from Ubuntu into a SmartOS image
+**0-setup.sh**: setup an existing Ubuntu server to generate a SmartOS image
+**1-prep.sh**: download the official cloud image from Ubuntu
+**2-run.sh**: convert the official cloud image from Ubuntu into a SmartOS image
 
 # tutorial
 
