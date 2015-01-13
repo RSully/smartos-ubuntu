@@ -1,30 +1,29 @@
 {
-	"brand": "kvm",
-	
-	"disks": [
-		{
-			"image_uuid": "",
-			"boot": true,
-			"model": "virtio",
-			"image_size": 5120
-		}
-	],
+  "brand": "kvm",
+  "disks": [
+    {
+      "image_uuid": "",
+      "boot": true,
+      "model": "virtio",
+      "image_size": 5120
+    }
+  ],
 
-	"ram": "512",
-	"vcpus": "1",
+  "ram": "512",
+  "vcpus": "1",
 
-	"resolvers": ["8.8.8.8"],
-	"nics": [
-		{
-			"nic_tag": "",
-			"ip": "",
-			"netmask": "",
-			"gateway": "",
-			"model": "virtio"
-		}
-	],
+  "resolvers": ["8.8.8.8"],
+  "nics": [
+    {
+      "nic_tag": "",
+      "ip": "",
+      "netmask": "",
+      "gateway": "",
+      "model": "virtio"
+    }
+  ],
 
-	"customer_metadata": {
-		"root_authorized_keys": ""
-	}
+  "customer_metadata": {
+    "root_authorized_keys": ""
+  }
 }
