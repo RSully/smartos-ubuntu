@@ -36,5 +36,13 @@ This process takes a while (downloading and running dd).
 You will end up with a *zvol.gz* file.
 Use this file with imgadm in the global zone of a SmartOS host.
 
+For example:
+
+```
+imgadm install -m your.json -f your.zvol.gz
+```
+
+Now you may create new KVM instances using vmadm!
+
 [0]: https://www.joyent.com/blog/certified-ubuntu-images-available-in-joyent-cloud
 [1]: http://wiki.joyent.com/wiki/display/jpc2/Ubuntu+Certified
